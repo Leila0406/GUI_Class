@@ -21,5 +21,10 @@ namespace N11310019_GUI_Class
         {
 
         }
+
+        private void btnBotton_Click(object sender, EventArgs e)
+        {
+            btnBotton.Text = "我已經被按過了";
+        }
     }
 }
