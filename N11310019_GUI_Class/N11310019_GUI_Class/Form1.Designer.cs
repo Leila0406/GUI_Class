@@ -33,6 +33,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.btnBotton = new System.Windows.Forms.Button();
             this.btnBMI = new System.Windows.Forms.Button();
+            this.btnTextBox = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -90,11 +91,22 @@
             this.btnBMI.Text = "BMI";
             this.btnBMI.UseVisualStyleBackColor = true;
             // 
+            // btnTextBox
+            // 
+            this.btnTextBox.Location = new System.Drawing.Point(263, 192);
+            this.btnTextBox.Name = "btnTextBox";
+            this.btnTextBox.Size = new System.Drawing.Size(101, 60);
+            this.btnTextBox.TabIndex = 6;
+            this.btnTextBox.Text = "輸入框";
+            this.btnTextBox.UseVisualStyleBackColor = true;
+            this.btnTextBox.Click += new System.EventHandler(this.btnTextBox_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnTextBox);
             this.Controls.Add(this.btnBMI);
             this.Controls.Add(this.btnBotton);
             this.Controls.Add(this.label3);
@@ -113,6 +125,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button btnBotton;
         private System.Windows.Forms.Button btnBMI;
+        private System.Windows.Forms.Button btnTextBox;
     }
 }
 

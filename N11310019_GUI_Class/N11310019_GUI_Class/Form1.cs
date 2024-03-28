@@ -27,5 +27,11 @@ namespace N11310019_GUI_Class
             Form form=new FormButton();
             form.Show();
         }
+
+        private void btnTextBox_Click(object sender, EventArgs e)
+        {
+            Form FormTextBox = new FormTextBox();
+            FormTextBox.Show();
+        }
     }
 }
