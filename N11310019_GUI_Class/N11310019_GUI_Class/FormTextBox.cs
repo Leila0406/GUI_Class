@@ -26,5 +26,14 @@ namespace N11310019_GUI_Class
         {
             label1.Text = tbInput.Text;
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            int a = Int32.Parse(textBox2.Text);
+            int b = Int32.Parse(textBox3.Text);
+            int sum = a + b;
+            label4.Text =sum.ToString();
+
+        }
     }
 }
