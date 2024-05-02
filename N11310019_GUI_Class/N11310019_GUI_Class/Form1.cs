@@ -33,5 +33,10 @@ namespace N11310019_GUI_Class
             Form FormTextBox = new FormTextBox();
             FormTextBox.Show();
         }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }

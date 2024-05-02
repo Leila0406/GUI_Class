@@ -20,8 +20,8 @@ namespace N11310019_GUI_Class
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
             string tmp = textBox1.Text;
-            int num = C = (F)* 9 / 5 + 32;
-            textBox1.Text = num.ToString();
+            //int num = C = (F)* 9 / 5 + 32;
+            //textBox1.Text = num.ToString();
 
 
 
@@ -32,5 +32,5 @@ namespace N11310019_GUI_Class
 
         }
     }
-    }
+    
 }
