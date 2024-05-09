@@ -36,7 +36,14 @@ namespace N11310019_GUI_Class
 
         private void button1_Click_1(object sender, EventArgs e)
         {
+            Form form = new Formtimer();
+            form.Show();
+        }
 
+        private void btnGameFinalPaws_Click(object sender, EventArgs e)
+        {
+            Form form = new FormGameFinalPaws();
+            form.Show();
         }
     }
 }

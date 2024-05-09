@@ -35,6 +35,7 @@
             this.btnBMI = new System.Windows.Forms.Button();
             this.btnTextBox = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.btnGameFinalPaws = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -112,11 +113,22 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
+            // btnGameFinalPaws
+            // 
+            this.btnGameFinalPaws.Location = new System.Drawing.Point(402, 195);
+            this.btnGameFinalPaws.Name = "btnGameFinalPaws";
+            this.btnGameFinalPaws.Size = new System.Drawing.Size(104, 54);
+            this.btnGameFinalPaws.TabIndex = 8;
+            this.btnGameFinalPaws.Text = "終極密碼";
+            this.btnGameFinalPaws.UseVisualStyleBackColor = true;
+            this.btnGameFinalPaws.Click += new System.EventHandler(this.btnGameFinalPaws_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnGameFinalPaws);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnTextBox);
             this.Controls.Add(this.btnBMI);
@@ -139,6 +151,7 @@
         private System.Windows.Forms.Button btnBMI;
         private System.Windows.Forms.Button btnTextBox;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnGameFinalPaws;
     }
 }
 
