@@ -13,3 +13,4 @@ C:\Users\MEGAS\Desktop\GUI_Class\N11310019_GUI_Class\N11310019_GUI_Class\obj\Deb
 C:\Users\MEGAS\Desktop\GUI_Class\N11310019_GUI_Class\N11310019_GUI_Class\obj\Debug\N11310019_GUI_Class.Form2.resources
 C:\Users\MEGAS\Desktop\GUI_Class\N11310019_GUI_Class\N11310019_GUI_Class\obj\Debug\N11310019_GUI_Class.Formtimer.resources
 C:\Users\MEGAS\Desktop\GUI_Class\N11310019_GUI_Class\N11310019_GUI_Class\obj\Debug\N11310019_GUI_Class.FormGameFinalPaws.resources
+C:\Users\MEGAS\Desktop\GUI_Class\N11310019_GUI_Class\N11310019_GUI_Class\obj\Debug\N11310019_GUI_Class.FormCheakBox.resources

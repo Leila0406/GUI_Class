@@ -64,6 +64,12 @@
     <Compile Include="FormButton.Designer.cs">
       <DependentUpon>FormButton.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormCheakBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCheakBox.Designer.cs">
+      <DependentUpon>FormCheakBox.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormGameFinalPaws.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -92,6 +98,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormButton.resx">
       <DependentUpon>FormButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCheakBox.resx">
+      <DependentUpon>FormCheakBox.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormGameFinalPaws.resx">
       <DependentUpon>FormGameFinalPaws.cs</DependentUpon>

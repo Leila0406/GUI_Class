@@ -45,5 +45,11 @@ namespace N11310019_GUI_Class
             Form form = new FormGameFinalPaws();
             form.Show();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form form = new FormCheakBox();
+            form.Show();
+        }
     }
 }
